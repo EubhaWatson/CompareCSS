@@ -6,13 +6,13 @@ This is a simple JuPyTer Notebook script that:
 
 2. Creates permutations of pairs.
 
-  Note: This means that File A will be compared to File B, but the script will be prevented from comparing File B to File A (i.e. doing the same work a second time). 
+  > Note: This means that File A will be compared to File B, but the script will be prevented from comparing File B to File A (i.e. doing the same work a second time). 
 
-4. Compares files contents for similarity. 
+3. Compares files contents for similarity. 
 
-5. Sorts the output from highest percentage of similarity to lowest.
+4. Sorts the output from highest percentage of similarity to lowest.
 
-6. Outputs everything to a `results.txt` file.
+5. Outputs everything to a `results.txt` file.
 
 It was written to compare student assignment submissions for large projects and to help flag _overly_ similar code. If two assignments are flagged as sharing a large amount of the same code, they should be manually reviewed for said similarities. 
 
